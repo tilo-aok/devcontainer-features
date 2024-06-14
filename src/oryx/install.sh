@@ -179,7 +179,7 @@ GIT_ORYX=/opt/tmp/oryx-repo
 mkdir -p ${BUILD_SCRIPT_GENERATOR}
 mkdir -p ${ORYX}
 
-git clone --depth=1 https://github.com/microsoft/Oryx $GIT_ORYX
+git clone --depth=1 https://github.com/tilo-aok/Oryx.git $GIT_ORYX
 
 if [[ "${PINNED_SDK_VERSION}" != "" ]]; then
     cd $GIT_ORYX
